@@ -40,7 +40,7 @@ jobs:
       name: Production
       url: https://${{ env.owner }}.${{ env.domain }}/${{ env.repo }}//
     env:
-      repo: actions-workshop-prod
+      repo: fluffy-octo-enigma
     steps:
       - name: Checkout 
         uses: actions/checkout@v2
